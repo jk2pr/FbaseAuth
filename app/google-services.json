@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "690143170713",
+    "firebase_url": "https://fir-demonotification.firebaseio.com",
+    "project_id": "fir-demonotification",
+    "storage_bucket": "fir-demonotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690143170713:android:0e26ebbf2ca9cb0c",
+        "android_client_info": {
+          "package_name": "com.jk.fbaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690143170713-bu5epo7dp46at0qsjore5asfkbe0tsem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jk.fbaseauth",
+            "certificate_hash": "d3bcedfd1d35d17bf96f6982b8051361aec89af8"
+          }
+        },
+        {
+          "client_id": "690143170713-b7bkemf4rdnjre578g9hqj60q2m3aaau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb90Zhpseet07e7wMewQa2B7L-B_kcBbI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690143170713-b7bkemf4rdnjre578g9hqj60q2m3aaau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
