@@ -2,8 +2,10 @@ package com.jk.fbaseauth
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.firebase.ui.auth.AuthUI
 import com.google.firebase.auth.FirebaseAuth
+import java.sql.Time
 import java.util.*
 
 
@@ -24,6 +26,7 @@ class MainActivity : AppCompatActivity() {
                 AuthUI.IdpConfig.Builder(AuthUI.GOOGLE_PROVIDER).build(),
                 AuthUI.IdpConfig.Builder(AuthUI.FACEBOOK_PROVIDER).build(),
                 AuthUI.IdpConfig.Builder(AuthUI.TWITTER_PROVIDER).build())
+        Toast.makeText(this, "JP", Toast.LENGTH_SHORT).show()
 // Create and launch sign-in intent
 //        startActivityForResult(
 //                AuthUI.getInstance()
