@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity() {
                 AuthUI.IdpConfig.Builder(AuthUI.FACEBOOK_PROVIDER).build(),
                 AuthUI.IdpConfig.Builder(AuthUI.TWITTER_PROVIDER).build())
         Toast.makeText(this, "JP", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "JP", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "JP", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "JP", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "JP", Toast.LENGTH_SHORT).show()
 // Create and launch sign-in intent
 //        startActivityForResult(
 //                AuthUI.getInstance()
